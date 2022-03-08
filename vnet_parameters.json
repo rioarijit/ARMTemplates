@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "vnetname": {
+        "value": "tma-us-mgmt-vnet01"
+      },
+      "subnetConfiguration": {
+        "value": [
+          {
+            "name": "tma-us-mgmt-subnet03",
+            "addressPrefix": "10.0.2.0/24"
+          },
+          {
+            "name": "tma-us-mgmt-subnet04",
+            "addressPrefix": "10.0.3.0/24"
+          }
+        ]
+      }
+    }
+  }
