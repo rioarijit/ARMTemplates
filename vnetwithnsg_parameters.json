@@ -3,17 +3,17 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "vnetname": {
-        "value": "tma-us-mgmt-vnet01"
+        "value": "name"
       },
       "subnetConfiguration": {
         "value": [
           {
-            "name": "tma-us-mgmt-subnet01",
-            "addressPrefix": "10.0.0.0/24"
+            "name": "name",
+            "addressPrefix": "ip address range"
           },
           {
-            "name": "tma-us-mgmt-subnet02",
-            "addressPrefix": "10.0.1.0/24"
+            "name": "name",
+            "addressPrefix": "ip address range"
           }
         ]
       }
