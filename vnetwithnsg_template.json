@@ -42,12 +42,12 @@
                             "properties": {
                                 "description": "description",
                                 "protocol": "Tcp",
-                                "sourcePortRange": "443",
-                                "destinationPortRange": "443",
+                                "sourcePortRange": "80",
+                                "destinationPortRange": "80",
                                 "sourceAddressPrefix": "10.1.0.0/16",
                                 "destinationAddressPrefix": "10.0.0.0/16",
                                 "access": "Allow",
-                                "priority": 100,
+                                "priority": 110,
                                 "direction": "Outbound"
                             }
                         }
