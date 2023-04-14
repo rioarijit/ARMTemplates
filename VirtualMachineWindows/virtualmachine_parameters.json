@@ -27,7 +27,7 @@
     "customdetails": {
       "value": [
         "drive:E:10",
-        "drive:F:20"
+        "drive:F:20",
         "Administrators:testdomain",
         "Administrators:N",
         "RemoteDesktopUsers:N",
